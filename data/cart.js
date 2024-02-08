@@ -28,4 +28,16 @@ export function addToCart (productId) {
       });
     }
   }
+
+   export function removeFromCart(productId) {
+    const newCart = [];
+
+    cart.forEach(() => {
+        if (cartItem.productId !== productId) {
+            newCart.push(cartItem);            
+        }
+    });
+
+    cart = newCart;
+  }
   
