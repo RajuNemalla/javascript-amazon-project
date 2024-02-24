@@ -1,0 +1,1 @@
+This project is about E-Commerce website Amazon which is a clone developed with the help of JavaScript, HTML&CSS. This projected is built with the help of an youtube channel called SuperSimpleDev.         
